@@ -1,0 +1,44 @@
+
+#include "TXLib.h"
+#include "BubleSorting.h"
+#include <stdlib.h>
+
+int RunTest();
+
+int main()
+    {
+    int number[500] = {0};
+    int sswop  = 0;
+    int eequal = 0;
+
+    for (int i = 10; i <= 20; i+=10)
+        {
+        sswop  = 0;
+        eequal = 0;
+        srand(1);
+        ArrayCreateRand (i, number);
+        for (int k = 0; k< i; k++)
+            printf ("[%d] %d ", k, number[k]);
+        printf ("\n");
+
+        BubblSorting (i, number, &sswop, &eequal);
+        txSetColor (TX_PINK);
+        for (int k = 0; k<= i; k++)
+            printf ("%d ", number[k]);
+             printf ("\n");
+        /*
+        txSetColor (TX_WHITE);
+                //MyPoint(i, eequal, color, 230, 40);
+                //MyPoint(i, sswop,  color, 610, 40);
+        printf ("элементов массива  %d \n", i);
+        printf ("перестановок  %d %f\n", sswop, (sswop/150));
+        printf ("сравнений  %d %f\n", eequal, (eequal/150));
+        }  */
+        }
+    return 0;
+    }
+
+int RunTest()
+    {
+
+    }

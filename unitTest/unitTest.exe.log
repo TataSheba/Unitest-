@@ -1,0 +1,591 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x2134 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         srand(1);
+     19:         ArrayCreateRand (i, number);
+=>   20:         BubblSorting (i, number, &sswop, &eequal);
+     21:         txSetColor (TX_PINK);
+     22:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:23:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:23:24
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x2134 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         srand(1);
+     19:         ArrayCreateRand (i, number);
+=>   20:         BubblSorting (i, number, &sswop, &eequal);
+     21:         txSetColor (TX_PINK);
+     22:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:23:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:23:24
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x4D58 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         srand(1);
+     19:         ArrayCreateRand (i, number);
+=>   20:         BubblSorting (i, number, &sswop, &eequal);
+     21:         txSetColor (TX_PINK);
+     22:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:25:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:25:40
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x4D58 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         srand(1);
+     19:         ArrayCreateRand (i, number);
+=>   20:         BubblSorting (i, number, &sswop, &eequal);
+     21:         txSetColor (TX_PINK);
+     22:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:25:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:25:40
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x4B50 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (21):
+
+     19:         ArrayCreateRand (i, number);
+     20: 
+=>   21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         txSetColor (TX_PINK);
+     23:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:27:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:27:25
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x4B50 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (21):
+
+     19:         ArrayCreateRand (i, number);
+     20: 
+=>   21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         txSetColor (TX_PINK);
+     23:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:27:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:27:25
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x386C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (21):
+
+     19:         ArrayCreateRand (i, number);
+     20: 
+=>   21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         txSetColor (TX_PINK);
+     23:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:29:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:29:54
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B5D6 в функции BubblSorting() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 37. Попытка записать данные по адресу 0xFFFFFFBB. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x386C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B5D6 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: BubblSorting() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (37):
+
+     35:         }
+     36:     *Swops  = sw;
+=>   37:     *Equals = eq;
+     38:     }
+     39: 
+
+# 1 0x0042B742 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (21):
+
+     19:         ArrayCreateRand (i, number);
+     20: 
+=>   21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         txSetColor (TX_PINK);
+     23:         for (int k = 0; k<= i; k++)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:29:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:29:54
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe, файл: C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h, строка: 11749, функция: HPEN__* {anonymous}::TX::txSetColor(COLORREF, double, HDC),
+
+Сообщение: Окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: Cmdre0, Thread: 0x4BBC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041C019 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: txSetColor() at C:/Users/alexa/Downloads/CodeBlocks/TX/TXLib.h (11749)
+
+# 1 0x0042B7D2 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (25):
+
+     23: 
+     24:         BubblSorting (i, number, &sswop, &eequal);
+=>   25:         txSetColor (TX_PINK);
+     26:         for (int k = 0; k<= i; k++)
+     27:             printf ("%d ", number[k]);
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in HPEN__* {anonymous}::TX::txSetColor(COLORREF, double, HDC) at C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h (11749):
+
+  11747: HPEN txSetColor (COLORREF color, double thickness /*= 1*/, HDC dc /*= txDC()*/)
+  11748:     {
+=>11749: $1  if (_TX_DEFAULT_HDC_FAILED (dc)) return NULL;
+  11750: 
+  11751: $   HPEN pen = Win32::CreatePen ((color == TX_TRANSPARENT? PS_NULL : PS_SOLID), ROUND (thickness), color);
+
+# 1 in int main() at C:\Users\alexa\Documents\codeblock\unitTest\unitTest.cpp (25):
+
+     23: 
+     24:         BubblSorting (i, number, &sswop, &eequal);
+=>   25:         txSetColor (TX_PINK);
+     26:         for (int k = 0; k<= i; k++)
+     27:             printf ("%d ", number[k]);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:39:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:39:50
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042B61D в функции ArrayCreateRand() в файле C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h на строке 45. Попытка записать данные по адресу 0x007B0000. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: CMdRe0, Thread: 0x1DDC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042B61D in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: ArrayCreateRand() at C:/Users/alexa/Documents/codeblock/unitTest/BubleSorting.h (45):
+
+     43:         {
+     44: //        assert(i=0, i<ArraySize);
+=>   45:         numberr [index] = rand()%100;
+     46:         //printf("%d  ", number [index]);
+     47:         }
+
+# 1 0x0042B745 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         eequal = 0;
+     19:         srand(1);
+=>   20:         ArrayCreateRand (i, number);
+     21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         printf ("\n перестановок [%d] %f ", sswop, (sswop/50000));
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in int main() at C:\Users\alexa\Documents\codeblock\unitTest\unitTest.cpp (10):
+
+      8: int main()
+      9:     {
+=>   10:     txCreateWindow(800, 600);
+     11:     int number[500] = {0};
+     12:     int sswop  = 0;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:56:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:56:50
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00000010. Попытка прочесть данные по адресу 0x00000010. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400], Instance: 0x005052F4 (32-bit), Flags: CMdRe0, Thread: 0x1DDC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+# 3 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+# 4 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+# 5 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+# 6 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+# 7 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+# 8 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+# 9 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#10 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#11 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#12 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#13 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#14 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#15 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#16 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#17 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#18 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#19 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#20 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#21 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#22 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#23 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#24 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#25 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#26 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#27 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#28 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#29 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+#30 0x77435044 in C:\Windows\SYSTEM32\ntdll.dll: RtlInterlockedCompareExchange64()
+#31 0x77422946 in C:\Windows\SYSTEM32\ntdll.dll: KiUserExceptionDispatcher()
+
+#32 0x0042B745 in C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe: main() at C:/Users/alexa/Documents/codeblock/unitTest/unitTest.cpp (20):
+
+     18:         eequal = 0;
+     19:         srand(1);
+=>   20:         ArrayCreateRand (i, number);
+     21:         BubblSorting (i, number, &sswop, &eequal);
+     22:         printf ("\n перестановок [%d] %f ", sswop, (sswop/50000));
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in int main() at C:\Users\alexa\Documents\codeblock\unitTest\unitTest.cpp (10):
+
+      8: int main()
+      9:     {
+=>   10:     txCreateWindow(800, 600);
+     11:     int number[500] = {0};
+     12:     int sswop  = 0;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 165, Date: 2020-02-23 20:43:39 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\alexa\Downloads\CodeBlocks\TX\TXLib.h
+Compiled:	Mar  3 2020 21:56:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Mar 03 2020 21:56:51
+
+Run file:	C:\Users\alexa\Documents\codeblock\unitTest\unitTest.exe
+Directory:	C:\Users\alexa\Documents\codeblock\unitTest
+
+--------------------------------------------------
